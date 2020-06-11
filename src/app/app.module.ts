@@ -4,17 +4,17 @@ import { NgModule } from '@angular/core';
 // import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { HeaderComponent } from './header/app.headerComponent';
+// import { HeaderComponent } from './header/app.headerComponent';
 
-import { SearchButtonComponent } from './searchButton/SearchButtonComponent';
+// import { SearchButtonComponent } from './searchButton/SearchButtonComponent';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    SearchButtonComponent,
+    // HeaderComponent,
+    // SearchButtonComponent,
   ],
   imports: [
     BrowserModule,

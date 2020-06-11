@@ -9,4 +9,8 @@ import { SearchButtonComponent } from './searchButton/SearchButtonComponent';
   templateUrl: './main.html',
 })
 export class AppComponent {
+  getTextBoxVal(item){
+
+    alert(item.value)
+  }
 }
